@@ -1,0 +1,11 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to 'toy app', root_path, id: 'logo' %>
+    <h1>Toy App: <%= yield('title')%></h1>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to 'Posts', microposts_path %></li>
+      </ul>
+    </nav
+  </div>
+</header>

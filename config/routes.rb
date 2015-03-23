@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :users
 
   root 'users#index'
+  get 'microposts' => 'microposts#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
