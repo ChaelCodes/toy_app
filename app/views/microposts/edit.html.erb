@@ -1,6 +1,7 @@
-<h1>Editing Micropost</h1>
-
-<%= render 'form' %>
-
+<%= provide('title','Editing Micropost') %>
+<br />
+<div>
+  <%= render 'form' %>
+</div>
 <%= link_to 'Show', @micropost %> |
 <%= link_to 'Back', microposts_path %>
